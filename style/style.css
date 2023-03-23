@@ -1,72 +1,187 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ol,ul{
+
+ol,
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-body{
-    background: #369;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-header{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.logo img{
-    width: 60px;
-}
-.menu{
-    transition: 1s ease-in-out;
-}
-.menu-item{
-    display: inline-block;
-    margin: 0 15px;
-}
-.menu-item a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 18px;
-    color: white;
-    text-transform: uppercase;
-}
-.burger{
-    cursor: pointer;
-    display: none;
-    position: relative;
-    transition: .5s ease-in-out;
-    width: 35px;
-    height: 35px;
-}
-.burger-line{
-    width: 40px;
-    height: 3px;
-    background: #000;
-    margin: 5px;
-    transition: .5s ease-in-out;
-}
-.burger.active .burger-line{
-    position: absolute;
-    transition: .5s ease-in-out;
-}
-.burger.active .burger-line:nth-child(2){
-    opacity: 0;
-}
-.burger.active .burger-line:nth-child(1){
-    transform: rotate(45deg);
-}
-.burger.active .burger-line:nth-child(3){
-    transform: rotate(-45deg);
+
+.first-section {
+     height: 800px; 
+    /* в учебных целях. НЕ СТАВЬТЕ ВЫСОТУ */
+    background: url("../images/blur.png") repeat-x center bottom,
+        url("../images/symbol.png") no-repeat center bottom,
+        url("../images/pattern.svg") no-repeat center bottom,
+        linear-gradient(42.01deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%)
 }
 
-.hidden{
-    overflow: hidden;
+.second-section {
+    height: 1394px; 
+    /* в учебных целях. НЕ СТАВЬТЕ ВЫСОТУ */
+    background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
+    border-radius: 0 0 12px 12px;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.second-section:before,
+.second-section:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 10px;
+    background: url('../images/bottom-line-big.png') no-repeat center center;
+    background-size: 98%;
+}
+
+.second-section:after {
+    bottom: -20px;
+    background: url('../images/bottom-line-small.png') no-repeat center center;
+    background-size: 95%;
+}
+
+.container {
+    padding: 50px 60px;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.header-wrap1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 30px;
+}
+.text {
+    font-family: TT Norms;
+    font-weight: 700;
+    color: #FFFFFF;
+    display: inline-block; 
+    font-size: 12px;
+    margin-left: 20px;
+   
+}
+
+.text1 {
+    font-family: TT Norms;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.menu{
+    display: inline-block;
+    margin: 0 25px;
+    position:relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    margin-top: 30px;
+}
+.text2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+.text2 a{
+    font-family: TT Norms;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.container1{
+    width: 800px;
+    height: 90px;
+    margin: 100px 640px;
+    padding: 50px;
+  
+}
+.text3{
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 38px;
+    text-align: center;
+}
+.header-wrap2{
+    width: 527px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.text4 a{
+    font-family: TT Norms;
+    font-weight: 700;
+    color: #B3B3BA;
+    margin-left: 10px;
+    font-size: 42px;
+    text-align:right;
+}
+.header-wrap2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0;
+    
+}
+.menu1{
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+.text4 p{
+    font-family: TT Norms;
+    font-weight: 700;
+    color: #B3B3BA;
+    margin-left: 10px;
+    font-size: 42px;
+    text-align: right;
+}
+
+.header-wrap3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.menu2{
+    width: 1500px;
+    height: 400px;
+}
+.text5 p{
+    font-family: TT Norms;
+    font-weight: 700;
+    color:  #FFFFFF;
+    display: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 22px;
+    text-align: left;
+}
+.text6 p{
+    font-family: TT Norms;
+    font-weight: 500;
+    color:  #FFFFFF;
+    display: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: left;
 }
