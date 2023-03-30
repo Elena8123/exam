@@ -23,7 +23,7 @@ a {
 }
 
 .second-section {
-    height: 1394px; 
+    /* height: 1394px;  */
     /* в учебных целях. НЕ СТАВЬТЕ ВЫСОТУ */
     background: linear-gradient(228.57deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
     border-radius: 0 0 12px 12px;
@@ -49,25 +49,32 @@ a {
 }
 
 .container {
-    padding: 50px 60px;
+    width: 1350px;
+    margin: 0 auto;
 }
-.logo {
-    width: 30px;
-    height: 30px;
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.logo img{
+    width: 155px;
+    margin-top: 20px;
 }
 .header-wrap1{
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    margin-top: 30px;
+    margin-top: 0px;
 }
 .text {
     font-family: TT Norms;
     font-weight: 700;
     color: #FFFFFF;
     display: inline-block; 
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 16px;
+    margin-right: 10px;
    
 }
 
@@ -77,17 +84,16 @@ a {
     color: #FFFFFF;
     display: inline-block;
     font-size: 16px;
-    margin-left: 30px;
+    margin-right: 10px;
 }
 
 .menu{
     display: inline-block;
-    margin: 0 25px;
     position:relative;
     display: flex;
     justify-content: flex-end;
     align-items: end;
-    margin-top: 30px;
+    margin-top: 19px;
 }
 .text2 {
     display: inline-block;
@@ -99,19 +105,14 @@ a {
     font-size: 18px;
     color: #FFFFFF;
 }
-.container1{
-    width: 800px;
-    height: 90px;
-    margin: 100px 640px;
-    padding: 50px;
-  
-}
+
 .text3{
     font-family: TT Norms;
     font-weight: 500;
     color: #FFFFFF;
     display: inline-block;
-    margin-right: 50px;
+    margin-left: 450px;
+    margin-top:280px;
     font-size: 38px;
     text-align: center;
 }
@@ -124,7 +125,7 @@ a {
     margin-top: 80px;
     margin-left: 60px;
 }
-.text4 a{
+.text4 p{
     font-family: TT Norms;
     font-weight: 700;
     color: #B3B3BA;
@@ -132,7 +133,7 @@ a {
     font-size: 42px;
     text-align:right;
 }
-.header-wrap2{
+.wrap2{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -143,9 +144,9 @@ a {
     width: 500px;
     height: 400px;
     margin-top: 80px;
-    margin-left: 300px;
+    margin-left: 100px;
 }
-.text4 p{
+.text4 {
     font-family: TT Norms;
     font-weight: 700;
     color: #B3B3BA;
@@ -154,7 +155,7 @@ a {
     text-align: right;
 }
 
-.header-wrap3{
+.wrap3{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -170,7 +171,7 @@ a {
     font-weight: 700;
     color:  #FFFFFF;
     display: left;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 40px;
     font-size: 22px;
     text-align: left;
@@ -180,8 +181,55 @@ a {
     font-weight: 500;
     color:  #FFFFFF;
     display: left;
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 40px;
     font-size: 15px;
     text-align: left;
+}
+.text7 {
+    font-family: TT Norms;
+    font-weight: 700;
+    color: #B3B3BA;
+    margin-left: 10px;
+    font-size: 14px;
+    text-align: left;
+}
+.text8 {
+    font-family: TT Norms;
+    font-weight: 700;
+    color: #B3B3BA;
+    margin-left: 10px;
+    font-size: 42px;
+    text-align: left;
+}
+.services-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.wrap4{
+    width: 413px;
+    margin-top: 80px;
+
+}
+.text9 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #24A3FF;
+    display: left;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 24px;
+  
+}
+.text10 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color:  #FFFFFF;
+    display: left;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 50px;
 }
