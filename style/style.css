@@ -14,7 +14,7 @@ a {
 }
 
 .first-section {
-     height: 800px; 
+    height: 800px;
     /* в учебных целях. НЕ СТАВЬТЕ ВЫСОТУ */
     background: url("../images/blur.png") repeat-x center bottom,
         url("../images/symbol.png") no-repeat center bottom,
@@ -52,30 +52,34 @@ a {
     width: 1350px;
     margin: 0 auto;
 }
-.header-wrap{
+
+.header-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+
 }
-.logo img{
+
+.logo img {
     width: 155px;
     margin-top: 20px;
 }
-.header-wrap1{
+
+.header-wrap1 {
     display: flex;
     justify-content: flex-end;
     align-items: end;
     margin-top: 0px;
 }
+
 .text {
     font-family: TT Norms;
     font-weight: 700;
     color: #FFFFFF;
-    display: inline-block; 
+    display: inline-block;
     font-size: 16px;
     margin-right: 10px;
-   
+
 }
 
 .text1 {
@@ -87,36 +91,39 @@ a {
     margin-right: 10px;
 }
 
-.menu{
+.menu {
     display: inline-block;
-    position:relative;
+    position: relative;
     display: flex;
     justify-content: flex-end;
     align-items: end;
     margin-top: 19px;
 }
+
 .text2 {
     display: inline-block;
     margin-left: 10px;
 }
-.text2 a{
+
+.text2 a {
     font-family: TT Norms;
     font-weight: 500;
     font-size: 18px;
     color: #FFFFFF;
 }
 
-.text3{
+.text3 {
     font-family: TT Norms;
     font-weight: 500;
     color: #FFFFFF;
     display: inline-block;
     margin-left: 450px;
-    margin-top:280px;
+    margin-top: 280px;
     font-size: 38px;
     text-align: center;
 }
-.header-wrap2{
+
+.header-wrap2 {
     width: 527px;
     height: 400px;
     display: flex;
@@ -125,27 +132,31 @@ a {
     margin-top: 80px;
     margin-left: 60px;
 }
-.text4 p{
+
+.text4 p {
     font-family: TT Norms;
     font-weight: 700;
     color: #B3B3BA;
     margin-left: 10px;
     font-size: 42px;
-    text-align:right;
+    text-align: right;
 }
-.wrap2{
+
+.wrap2 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin: 0;
-    
+
 }
-.menu1{
+
+.menu1 {
     width: 500px;
     height: 400px;
     margin-top: 80px;
     margin-left: 100px;
 }
+
 .text4 {
     font-family: TT Norms;
     font-weight: 700;
@@ -155,37 +166,41 @@ a {
     text-align: right;
 }
 
-.wrap3{
+.wrap3 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 80px;
     margin-left: 20px;
 }
-.menu2{
+
+.menu2 {
     width: 1500px;
     height: 400px;
 }
-.text5 p{
+
+.text5 p {
     font-family: TT Norms;
     font-weight: 700;
-    color:  #FFFFFF;
+    color: #FFFFFF;
     display: left;
     margin-left: 90px;
     margin-top: 40px;
     font-size: 22px;
     text-align: left;
 }
-.text6 p{
+
+.text6 p {
     font-family: TT Norms;
     font-weight: 500;
-    color:  #FFFFFF;
+    color: #FFFFFF;
     display: left;
     margin-left: 90px;
     margin-top: 40px;
     font-size: 15px;
     text-align: left;
 }
+
 .text7 {
     font-family: TT Norms;
     font-weight: 700;
@@ -194,6 +209,7 @@ a {
     font-size: 14px;
     text-align: left;
 }
+
 .text8 {
     font-family: TT Norms;
     font-weight: 700;
@@ -202,17 +218,20 @@ a {
     font-size: 42px;
     text-align: left;
 }
-.services-wrap{
+
+.services-wrap {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
 }
-.wrap4{
+
+.wrap4 {
     width: 413px;
     margin-top: 80px;
 
 }
+
 .text9 {
     font-family: TT Norms;
     font-weight: 500;
@@ -222,14 +241,90 @@ a {
     margin-top: 40px;
     margin-right: 20px;
     font-size: 24px;
-  
+
 }
+
 .text10 {
     font-family: TT Norms;
     font-weight: 500;
-    color:  #FFFFFF;
+    color: #FFFFFF;
     display: left;
     font-size: 15px;
     text-align: left;
     margin-top: 50px;
+}
+
+.first-section .container1 {
+    /* width: 1440px; */
+    margin: 0 auto;
+}
+
+.text11{
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #323264;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.wrap5 {
+    width: 360px;
+    margin: 0 auto;
+    /* height: 120px; */
+
+}
+/* .logo2-img {
+    width: 360px;
+    height: 120px;
+    
+} */
+.header-wrap3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 0px;
+}
+.text12{
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #323264;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 30px;
+    
+}
+a.text13 {
+    font-family: TT Norms;
+    font-weight: 700;
+    color:#24A3FF;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 30px;
+    margin-left: 20px;
+  
+}
+.text14{
+    font-family: TT Norms;
+    font-weight: 500;
+    color:#B3B3BA;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 30px;
+  
+}
+.header-wrap4 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    margin-top: 0px;
+}
+.text15{
+    font-family: TT Norms;
+    font-weight: 700;
+    color: #46466E;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 30px;
+    
 }
