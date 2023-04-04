@@ -254,12 +254,17 @@ a {
     margin-top: 50px;
 }
 
+.wrap5 {
+    width: 360px;
+    margin: 0 auto;
+}
+
 .first-section .container1 {
     /* width: 1440px; */
     margin: 0 auto;
 }
 
-.text11{
+.text11 {
     font-family: TT Norms;
     font-weight: 500;
     color: #323264;
@@ -268,12 +273,14 @@ a {
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.wrap5 {
+
+.wrap6 {
     width: 360px;
     margin: 0 auto;
     /* height: 120px; */
 
 }
+
 /* .logo2-img {
     width: 360px;
     height: 120px;
@@ -285,46 +292,208 @@ a {
     align-items: end;
     margin-top: 0px;
 }
-.text12{
+
+.text12 {
     font-family: TT Norms;
     font-weight: 500;
     color: #323264;
     font-size: 16px;
     text-align: right;
     margin-top: 30px;
-    
+
 }
+
 a.text13 {
     font-family: TT Norms;
     font-weight: 700;
-    color:#24A3FF;
+    color: #24A3FF;
     font-size: 16px;
     text-align: right;
     margin-top: 30px;
     margin-left: 20px;
-  
+
 }
-.text14{
+
+.text14 {
     font-family: TT Norms;
     font-weight: 500;
-    color:#B3B3BA;
+    color: #B3B3BA;
     font-size: 16px;
     text-align: left;
     margin-top: 30px;
-  
+
 }
+
 .header-wrap4 {
     display: flex;
     justify-content: flex-start;
     align-items: end;
     margin-top: 0px;
 }
-.text15{
+
+.text15 {
     font-family: TT Norms;
     font-weight: 700;
     color: #46466E;
     font-size: 16px;
     text-align: right;
     margin-top: 30px;
-    
+
+}
+
+
+.text16 p {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #F0145A;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text17 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #686887;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.text18 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #B3B3BA;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.wrap-template {
+    height: 100vh;
+    display: grid;
+    /* grid-template-areas: "header-block header-block header-block" "nav-block   main-block  aside-block" "footer-block footer-block footer-block"; */
+    gap: 10px;
+    grid-template-columns: 320px 113px 361px 93px 433px;
+    grid-template-rows: 58px 198px 198px;
+}
+
+.item {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+}
+
+.item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item3 {
+    grid-column-start: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.item4 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.item5 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+
+.item6 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+}
+.text19 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #24A3FF;
+    display: left;
+    margin-left: 0px;
+    margin-top: 40px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.text20 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #24A3FF;
+    display: left;
+    font-size: 15px;
+}
+.text21 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #B3B3BA;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 30px;
+}
+.text22 {
+    font-family: TT Norms;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 30px;
+}
+.wrap-template1 {
+    height: 100vh;
+    display: grid;
+    /* grid-template-areas: "header-block header-block header-block" "nav-block   main-block  aside-block" "footer-block footer-block footer-block"; */
+    gap: 10px;
+    grid-template-columns: 413px 413px 413px;
+    grid-template-rows: 70px 265px 155px 42px 40px 300px;
+}
+.item7 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.item8 {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.item9 {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item10 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 7;
+}
+
+.item11 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.item12 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+}
+
+.item13 {
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
 }
