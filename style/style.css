@@ -330,6 +330,24 @@ a.text13 {
     align-items: end;
     margin-top: 0px;
 }
+.wrap7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 0px;
+    width: 413px;
+    height: 500px;
+}
+.wrap8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: end;
+    margin-top: 0px;
+    width: 867px;
+    height: 288px;
+}
 
 .text15 {
     font-family: TT Norms;
